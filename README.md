@@ -1,7 +1,7 @@
 # emreucar
 #include <stdio.h>
 int factorial(int x){
-    if(x<=0){
+    if(x<=0){  //we are checking the variable wheather is a negative figue or not
         return 1;}
         else{
             return x * factorial(x-1);
