@@ -1,4 +1,4 @@
-# emreucar
+[# emreucar
 #include <stdio.h>
 int factorial(int x){
     if(x<=0){  //we are checking the variable wheather is a negative figue or not
@@ -11,7 +11,7 @@ int factorial(int x){
 int main() {
     int x = 4;
 if(x > 0) {
-        int result = factorial(x);
+        int result = factorial(x); // we call the function in the main function
         printf("The Factorial is : %d", result);
     }
     else {
@@ -20,3 +20,4 @@ if(x > 0) {
     
     return 0;
 }
+](https://github.com/emreucar3438-sys/emreucar.git)
